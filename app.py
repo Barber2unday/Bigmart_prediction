@@ -8,7 +8,7 @@ import uvicorn
 big_mart_sales_app = FastAPI()
 
 # Load model from local disc
-filename = 'Data\Bigmart_pred_gam_model.sav'
+filename = 'Bigmart_pred_gam_model.sav'
 loaded_model = joblib.load(filename)
 
 # Create the get and index method to open automatically on a server
